@@ -1,1 +1,10 @@
 script: true
+deploy:
+  provider: openshift
+  user: managanesh@gmail.com
+  password:
+    secure: G/gt/wfAvIw//W0beuQOF6/uAJV0+dzDwNCGclx6dB8kF8C3MTQqTRbo5e2k2vUOoQBlsKy6Z8JCt6paBxn58Q/+LKUK+zEQyFzUXdQNd56AMKdkVM6Ynl1QcCJW9jzsoXWjQRucuzwCn9JaMDwIWadspvL7XQay2QwIs/c5kUcChAWsR8ZnBJkqUiJ+xnOSJtoNjMcUu6rLuebxqDD8zso7wLoY/81+n1oVxGCJjUghggdsgAB1Aap0GPsMWRX/P0UDyWYmhrtNYFsW84AkCcvB1s3TX3/XHrTgrgQCHlGCGWflnEmx8tu1Buv0yOMPVOUp5yHz725MMFaVKzIWOV76cAAcA5rpUdaHOyGjEBnp+sVZj9WCIAyPxH8Jt1H96WK6IPu7u4zeVjW5nU1nOCMkIr/+1Ksbg50nwcnjEo2QDzeha6EpoyxM2kBlzhUYtgIzPbJRwF7pCxpB+sK++uZTzdSOM8AHkBUktGBvRtedYMr6/dJ4nD9/ls7z1PVt/70MiBxokVnT4mLFcsanvP0D6EPSTqW6DlHg5Le6/KHgrf82rr74bP50ONghfzae6tFny/3xJg7i69UiNjLlBQr1g11jbavzsbRfR99Kb0QYeQFma5mGUHAlpp4X8ckeDYUURBRA4v/D4B3yaEIHVW4fato0IQXT4S7dhLP3Ano=
+  app: travisci
+  domain: vallabhaneni
+  on:
+    repo: managanesh/travisci
